@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Trispace:wght@600&display=swap');
+
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Trispace', sans-serif;
+  text-align: center;
+}
+
+.me {
+  font-size: 50px;
+  padding-top: 10px;
+}
+
+span {
+  color: yellow;
+  animation: yeorgra 3s infinite;
+}
+
+@keyframes yeorgra {
+  50% {
+    color: orange;
+  }
+
+  100% {
+    color: yellow;
+  }
+}
+
+@keyframes buttani {
+  50% {
+    border: solid 6px orange;
+  }
+
+  100% {
+    border: solid 6px yellow;
+  }
+}
+
+button {
+  font-size: 35px;
+  font-family: 'Trispace', sans-serif;
+  color: white;
+  background-color: black;
+  border: solid 6px yellow;
+  padding: 10px;
+  margin: 10px;
+}
+
+button:hover {
+  background-color: rgb(44, 43, 43);
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+table,
+tr,
+td {
+  animation: buttani 3s infinte;
+  border: solid 5px orange;
+  padding: 20px;
+  font-size: 35px;
+  border-collapse: collapse;
+}
+
+table {
+  margin-right: auto;
+  margin-left: auto;
+}
